@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "573764168214",
+    "firebase_url": "https://restruant-8b062.firebaseio.com",
+    "project_id": "restruant-8b062",
+    "storage_bucket": "restruant-8b062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573764168214:android:c7b981726e448ea1",
+        "android_client_info": {
+          "package_name": "com.example.cm.resturant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573764168214-1seplcrk3unobjniv4tpcro7ftqftiar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7bWT3CFsbVL03-JgY_-myJTU-cKwCOv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

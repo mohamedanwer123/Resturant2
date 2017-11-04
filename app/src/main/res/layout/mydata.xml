@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mydata"
+    android:background="@drawable/me"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfoods"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvprice"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="name"
+        android:textColor="#fff" />
+
+    <EditText
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:hint="phone"
+        android:gravity="center"/>
+
+    <EditText
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:hint="address"
+        android:gravity="center"/>
+
+    <Button
+        android:text="Ok"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/but"
+        android:textColor="#fff"
+        android:background="#c9025f"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

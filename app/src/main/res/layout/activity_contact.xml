@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cm.resturant.contact"
+    android:background="@drawable/str3">
+
+    <Button
+        android:layout_marginTop="120dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="call"
+        android:drawableLeft="@drawable/call2"
+        android:onClick="call"
+        android:background="@drawable/me"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="SMs"
+        android:drawableLeft="@drawable/sms2"
+        android:onClick="sms"
+        android:background="@drawable/me"/>
+
+    <Button
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Mail"
+        android:drawableLeft="@drawable/mail2"
+        android:onClick="mail"
+        android:background="@drawable/me"/>
+
+    <Button
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="web site"
+        android:drawableLeft="@drawable/web2"
+        android:onClick="web"
+        android:background="@drawable/me"/>
+
+</LinearLayout>

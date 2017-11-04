@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Soup"
+            android:title="Soup"
+            android:icon="@drawable/akl"
+            />
+        <item
+            android:id="@+id/Starters"
+            android:title="Starters"
+            android:icon="@drawable/akl"/>
+        <item
+            android:id="@+id/NachosDip"
+            android:title="Nachos Dip"
+            android:icon="@drawable/akl"/>
+        <item
+            android:id="@+id/SideDishes"
+            android:title="Side Dishes"
+            android:icon="@drawable/akl"/>
+
+        <item
+            android:id="@+id/Salads"
+            android:title="Salads"
+            android:icon="@drawable/akl"/>
+
+        <item
+            android:id="@+id/NachosSalads"
+            android:title="Nachos Salads"
+            android:icon="@drawable/akl"/>
+
+        <item
+            android:id="@+id/Cannelloni"
+            android:title="Mac Cannelloni"
+            android:icon="@drawable/akl"/>
+
+        <item
+            android:id="@+id/Lasagne"
+            android:title="Lasagne"
+            android:icon="@drawable/akl"/>
+        <item
+            android:id="@+id/Pasta"
+            android:title="Pasta"
+            android:icon="@drawable/akl"/>
+        <item
+            android:id="@+id/ChickenChineseNoodles"
+            android:title="Chicken Chinese Noodles"
+            android:icon="@drawable/akl"/>
+
+        <item
+            android:id="@+id/Burgers"
+            android:title="Burgers"
+            android:icon="@drawable/akl"/>
+
+    </group>
+
+
+</menu>
